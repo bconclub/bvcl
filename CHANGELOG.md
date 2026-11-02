@@ -3,6 +3,11 @@
 All notable changes to this project are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
+## [0.10.1] - 2026-11-03
+
+### Removed
+- "formerly Bakervaughn" from the meta description and footer. Scafell Partners is presented as a new company.
+
 ## [0.10.0] - 2026-11-03
 
 ### Changed

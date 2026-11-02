@@ -93,7 +93,7 @@ export function Footer({ c }: { c: HomeContent["footer"] }) {
         </div>
 
         <div className="mt-16 flex flex-col items-center gap-3 border-t border-line-soft pt-6 text-center text-sm text-text-3">
-          <p>© 2026 Scafell Partners, formerly Bakervaughn · Company no. {c.companyNumber} · v{version}</p>
+          <p>© 2026 Scafell Partners · Company no. {c.companyNumber} · v{version}</p>
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             <a href="#" className="hover:text-text">Privacy policy</a>
             <span>
