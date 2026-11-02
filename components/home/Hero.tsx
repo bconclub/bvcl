@@ -48,7 +48,7 @@ export default function Hero({ c, brands }: { c: HomeContent["hero"]; brands: Cl
       {/* lamp light that follows the cursor */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_640px_at_var(--mx,72%)_var(--my,42%),oklch(79%_0.155_68/0.24),transparent_70%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_640px_at_var(--mx,72%)_var(--my,42%),oklch(70%_0.17_277/0.24),transparent_70%)]"
       />
       <div className="wrap relative grid min-h-[min(100svh,960px)] items-center gap-6 pt-[96px] pb-12 lg:grid-cols-[1.05fr_0.95fr] lg:pb-16">
         <div className="relative z-10" data-scroll-out>

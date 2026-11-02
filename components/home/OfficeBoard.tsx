@@ -60,7 +60,7 @@ export default function OfficeBoard({ offices }: { offices: HomeContent["footer"
 
   return (
     <table ref={ref} className="w-full border-t border-line-soft font-mono text-[13px] uppercase tracking-[0.06em]">
-      <caption className="sr-only">Bakervaughn offices</caption>
+      <caption className="sr-only">Scafell Partners offices</caption>
       <thead className="sr-only">
         <tr>
           <th>Office</th>

@@ -23,7 +23,7 @@ export default function WhyWeExist({ c }: { c: HomeContent["why"] }) {
             <div
               aria-hidden
               data-parallax="80"
-              className="absolute -inset-y-24 inset-x-0 bg-[radial-gradient(90%_70%_at_50%_0%,oklch(79%_0.155_68/0.22),transparent_70%)]"
+              className="absolute -inset-y-24 inset-x-0 bg-[radial-gradient(90%_70%_at_50%_0%,oklch(70%_0.17_277/0.22),transparent_70%)]"
             />
             <div
               aria-hidden
@@ -40,7 +40,7 @@ export default function WhyWeExist({ c }: { c: HomeContent["why"] }) {
                 <li key={i} data-reveal className="grid grid-cols-[3rem_1fr] border-b border-ink/15 py-6">
                   <span className="font-mono text-sm text-ink-2">{p.n}</span>
                   <div>
-                    <h3 className="text-2xl font-bold tracking-[-0.02em] [font-stretch:108%]">{p.title}</h3>
+                    <h3 className="text-2xl font-bold tracking-[-0.02em]">{p.title}</h3>
                     <p className="mt-1.5 inline-flex items-center gap-2 font-mono text-xs tracking-[0.06em] text-ink uppercase">
                       <span className="size-2 rounded-full" style={{ background: serviceColor[p.slug] }} aria-hidden />
                       {p.service}

@@ -63,7 +63,7 @@ export default function AdminShell({
           <LogoMark className="h-3.5 w-auto" />
         </span>
         <span className="leading-tight">
-          <span className="block font-bold tracking-[-0.01em]">Baker Vaughn</span>
+          <span className="block font-bold tracking-[-0.01em]">Scafell Partners</span>
           <span className="block text-xs text-text-3">Admin · v{version}</span>
         </span>
       </Link>

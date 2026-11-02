@@ -97,7 +97,7 @@ export default function TicketRail() {
   return (
     <div ref={box} className="relative">
       {/* Heat lamp + rail */}
-      <div aria-hidden className="pointer-events-none absolute -top-24 left-1/2 h-72 w-[130%] -translate-x-1/2 bg-[radial-gradient(ellipse_at_top,oklch(79%_0.155_68/0.28),transparent_65%)]" />
+      <div aria-hidden className="pointer-events-none absolute -top-24 left-1/2 h-72 w-[130%] -translate-x-1/2 bg-[radial-gradient(ellipse_at_top,oklch(70%_0.17_277/0.28),transparent_65%)]" />
       <div className="relative">
         <div className="flex items-center justify-between rounded-[2px] border border-line bg-surface px-4 py-3">
           <span className="font-mono text-[11px] uppercase tracking-[0.1em] text-text-2">Across your business</span>

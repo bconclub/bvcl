@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { BAND, LEFT, RIGHT } from "@/components/BrandLogo";
+import { MARK_VIEWBOX, NECK, SQUARE_A, SQUARE_B } from "@/components/BrandLogo";
 
 // Loading screen: the mark keeps assembling in a loop while the bar tracks
 // real readiness (fonts + window load), then the screen lifts away.
@@ -71,13 +71,13 @@ export default function Preloader() {
         done ? "[clip-path:inset(0_0_100%_0)]" : "[clip-path:inset(0_0_0_0)]"
       }`}
       role="status"
-      aria-label="Loading Baker Vaughn"
+      aria-label="Loading Scafell Partners"
     >
       <div className={`flex flex-col items-center transition-opacity duration-300 ${done ? "opacity-0" : "opacity-100"}`}>
-        <svg viewBox="0 0 358 234" className={`h-auto w-[92px] text-text sm:w-[112px] ${done ? "pl-hold" : ""}`} fill="currentColor" aria-hidden>
-          <path d={LEFT} className="pl-piece" style={{ animationDelay: "0s" }} />
-          <path d={BAND} className="pl-piece" style={{ animationDelay: "0.12s" }} />
-          <path d={RIGHT} className="pl-piece pl-accent" style={{ animationDelay: "0.24s" }} />
+        <svg viewBox={MARK_VIEWBOX} className={`h-auto w-[92px] text-text sm:w-[112px] ${done ? "pl-hold" : ""}`} fill="currentColor" aria-hidden>
+          <path d={NECK} className="pl-piece" style={{ animationDelay: "0s" }} />
+          <path d={SQUARE_A} className="pl-piece pl-accent" style={{ animationDelay: "0.12s" }} />
+          <path d={SQUARE_B} className="pl-piece pl-accent" style={{ animationDelay: "0.24s" }} />
         </svg>
         <div className="mt-9 h-[2px] w-[180px] overflow-hidden rounded-full bg-white/10 sm:w-[220px]">
           <div className="h-full origin-left rounded-full bg-lamp" style={{ transform: `scaleX(${progress})` }} />

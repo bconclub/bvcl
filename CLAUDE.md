@@ -1,4 +1,4 @@
-# Baker Vaughn site (bvcl)
+# Scafell Partners site, formerly Baker Vaughn (bvcl)
 
 Next.js 16 / React 19 site with a Supabase-backed admin panel. See README.md, ADMIN.md and DESIGN.md.
 

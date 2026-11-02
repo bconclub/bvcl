@@ -41,7 +41,7 @@ export function Footer({ c }: { c: HomeContent["footer"] }) {
       <div className="wrap">
         <div className="grid gap-12 lg:grid-cols-[1fr_1fr_1.4fr]">
           <div className="text-center sm:text-left">
-            <Wordmark tagline className="h-14 w-auto" />
+            <Wordmark className="h-14 w-auto" />
             <p className="mx-auto mt-4 max-w-[30ch] leading-relaxed text-text-2 sm:mx-0">
               {c.tagline}
             </p>
@@ -89,7 +89,7 @@ export function Footer({ c }: { c: HomeContent["footer"] }) {
         </div>
 
         <div className="mt-16 flex flex-col items-center gap-3 border-t border-line-soft pt-6 text-center text-sm text-text-3">
-          <p>© 2026 Bakervaughn · Company no. {c.companyNumber} · v{version}</p>
+          <p>© 2026 Scafell Partners, formerly Bakervaughn · Company no. {c.companyNumber} · v{version}</p>
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             <a href="#" className="hover:text-text">Privacy policy</a>
             <span>

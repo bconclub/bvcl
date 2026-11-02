@@ -8,7 +8,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
   return (
     <main className="grid min-h-svh place-items-center px-4 py-16">
       <div className="w-full max-w-sm">
-        <p className="font-mono text-xs uppercase tracking-[0.08em] text-lamp">Bakervaughn admin</p>
+        <p className="font-mono text-xs uppercase tracking-[0.08em] text-lamp">Scafell Partners admin</p>
         <h1 className="mt-3 text-3xl font-bold tracking-[-0.02em]">Sign in</h1>
 
         {!supabaseConfigured ? (

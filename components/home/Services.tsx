@@ -27,7 +27,7 @@ export default function Services({ c }: { c: HomeContent["services"] }) {
                 <div
                   className="relative hidden aspect-[16/10] place-items-center overflow-hidden rounded-2xl border border-white/10 md:grid"
                   style={{
-                    background: `radial-gradient(120% 90% at 50% 110%, ${(serviceColor[s.slug] ?? "#9ca3af")}40, transparent 60%), oklch(19% 0.008 60)`,
+                    background: `radial-gradient(120% 90% at 50% 110%, ${(serviceColor[s.slug] ?? "#9ca3af")}40, transparent 60%), oklch(21% 0.03 272)`,
                   }}
                 >
                   <div
