@@ -46,7 +46,7 @@ export const homeSections = {
   statement: {
     label: "Statement",
     anchor: "statement",
-    description: "The large scrolling statement. The highlighted words light up in amber.",
+    description: "The large scrolling statement. The highlighted words light up in the accent colour.",
     defaults: {
       headline: "Your whole business, running on",
       highlight: "one system.",
@@ -106,9 +106,9 @@ export const homeSections = {
   labs: {
     label: "Labs",
     anchor: "labs",
-    description: "Bakervaughn Labs side builds.",
+    description: "Scafell Labs side builds.",
     defaults: {
-      eyebrow: "Bakervaughn Labs",
+      eyebrow: "Scafell Labs",
       title: "AI you can touch.",
       intro: "Side builds that started as “what if” conversations. Some graduate into products.",
       badge: "In R&D",
@@ -127,7 +127,7 @@ export const homeSections = {
   close: {
     label: "Contact call to action",
     anchor: "contact",
-    description: "The amber closing section with the consultation button.",
+    description: "The accent-coloured closing section with the consultation button.",
     defaults: {
       title: "Tell us the one thing costing you most.",
       body: "A free consultation, no obligation. Tell us how your business runs today and we'll show you where one connected system saves the most time.",

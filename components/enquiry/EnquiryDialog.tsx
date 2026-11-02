@@ -157,7 +157,7 @@ export default function EnquiryDialog({ isOpen, onClose, source, draft, setDraft
       }}
       onClick={(e) => e.target === ref.current && onClose()}
       aria-labelledby="enq-title"
-      className="m-auto max-h-[min(92dvh,760px)] w-[min(100vw-24px,640px)] overflow-hidden rounded-[4px] border border-line bg-surface p-0 text-text backdrop:bg-[oklch(8%_0.005_60/0.78)]"
+      className="m-auto max-h-[min(92dvh,760px)] w-[min(100vw-24px,640px)] overflow-hidden rounded-[4px] border border-line bg-surface p-0 text-text backdrop:bg-[oklch(10%_0.02_272/0.78)]"
     >
       <div className="flex max-h-[min(92dvh,760px)] flex-col">
         <header className="flex items-center justify-between border-b border-line px-5 py-4 md:px-8">
@@ -324,7 +324,7 @@ export default function EnquiryDialog({ isOpen, onClose, source, draft, setDraft
                       className="mt-1 size-5 shrink-0 accent-[var(--lamp)]"
                     />
                     <span>
-                      Bakervaughn may contact me about this enquiry. See our{" "}
+                      Scafell Partners may contact me about this enquiry. See our{" "}
                       <a href="#" className="underline underline-offset-2">privacy policy</a> [ADD LINK].
                       {err("consent")}
                     </span>
@@ -356,7 +356,7 @@ export default function EnquiryDialog({ isOpen, onClose, source, draft, setDraft
             <button
               onClick={next}
               disabled={status === "sending"}
-              className="group flex h-14 items-center gap-3 rounded-full bg-lamp px-7 text-base font-semibold text-ink transition-colors hover:bg-[oklch(84%_0.14_70)] disabled:opacity-60"
+              className="group flex h-14 items-center gap-3 rounded-full bg-lamp px-7 text-base font-semibold text-ink transition-colors hover:bg-[oklch(78%_0.14_277)] disabled:opacity-60"
             >
               {draft.step < 2 ? "Continue" : status === "sending" ? "Sending…" : "Send enquiry"}
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-0.5" />

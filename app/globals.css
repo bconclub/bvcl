@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --ground: oklch(15% 0.006 60);
-  --ground-deep: oklch(11.5% 0.005 60);
-  --surface: oklch(19.5% 0.007 60);
-  --line: oklch(29% 0.008 60);
-  --line-soft: oklch(23% 0.007 60);
-  --text: oklch(93% 0.008 80);
-  --text-2: oklch(74% 0.01 75);
-  --text-3: oklch(62% 0.01 70);
-  --paper: oklch(95% 0.014 88);
-  --paper-shade: oklch(89% 0.016 85);
-  --ink: oklch(21% 0.01 60);
-  --ink-2: oklch(42% 0.01 60);
-  --lamp: oklch(79% 0.155 68);
-  --lamp-deep: oklch(66% 0.16 55);
+  --ground: oklch(17% 0.03 272);
+  --ground-deep: oklch(13.5% 0.025 272);
+  --surface: oklch(21% 0.03 272);
+  --line: oklch(31% 0.03 272);
+  --line-soft: oklch(25% 0.03 272);
+  --text: oklch(96% 0.006 275);
+  --text-2: oklch(78% 0.015 275);
+  --text-3: oklch(67% 0.018 275);
+  --paper: oklch(97.5% 0.006 275);
+  --paper-shade: oklch(92.5% 0.01 275);
+  --ink: #0B1020;
+  --ink-2: oklch(42% 0.025 272);
+  --lamp: oklch(70% 0.17 277);
+  --lamp-deep: #3D3BF3;
   --docket: oklch(56% 0.19 29);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -35,7 +35,7 @@
   --color-lamp: var(--lamp);
   --color-lamp-deep: var(--lamp-deep);
   --color-docket: var(--docket);
-  --font-sans: var(--font-archivo);
+  --font-sans: var(--font-inter-tight);
   --font-mono: var(--font-jetbrains);
 }
 
@@ -47,7 +47,7 @@ html {
 body {
   background: var(--ground);
   color: var(--text);
-  font-family: var(--font-archivo), system-ui, sans-serif;
+  font-family: var(--font-inter-tight), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -61,9 +61,8 @@ body {
   outline-offset: 3px;
 }
 
-/* Display type: widened Archivo, tight tracking */
+/* Display type: Inter Tight, tight tracking */
 .display {
-  font-stretch: 112%;
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 0.95;
@@ -144,7 +143,7 @@ html.lenis, html.lenis body { height: auto; }
   28%, 72% { opacity: 1; transform: none; }
   94%, 100% { opacity: 0; transform: translateY(-14px) scale(0.96); }
 }
-.pl-accent { fill: var(--lamp); animation-name: pl-accent; }
+.pl-accent { fill: var(--lamp-deep); animation-name: pl-accent; }
 @keyframes pl-accent {
   0% { opacity: 0; transform: translate(-16px, 16px); }
   28%, 72% { opacity: 1; transform: none; }

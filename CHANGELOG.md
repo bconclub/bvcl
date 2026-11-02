@@ -3,6 +3,15 @@
 All notable changes to this project are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [SemVer](https://semver.org/).
 
+## [0.9.0] - 2026-11-03
+
+### Changed
+- Rebrand from Bakervaughn to Scafell Partners: name across the site, metadata, consent line, footer and admin. "formerly Bakervaughn" stays in the description and footer.
+- New logo: four equal squares with an offset, two of them joined. Replaces the mark, lockup, loading screen, favicon, app icons and the footer tagline drawn in the old lockup.
+- Colours: amber and warm neutrals become indigo and cool ink. `--lamp-deep` is the brand indigo #3D3BF3 and `--lamp` a lighter indigo that stays readable on dark.
+- Type: Archivo becomes Inter Tight.
+- "Bakervaughn Labs" is now "Scafell Labs".
+
 ## [0.8.0] - 2026-10-08
 
 ### Added

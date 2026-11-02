@@ -25,7 +25,7 @@ export default function EnquiryForm({ id, status, notes }: { id: string; status:
       </label>
       <button
         disabled={pending}
-        className="mt-4 h-11 w-full rounded-full bg-lamp font-semibold text-ink hover:bg-[oklch(84%_0.14_70)] disabled:opacity-60"
+        className="mt-4 h-11 w-full rounded-full bg-lamp font-semibold text-ink hover:bg-[oklch(78%_0.14_277)] disabled:opacity-60"
       >
         {pending ? "Saving…" : "Save"}
       </button>

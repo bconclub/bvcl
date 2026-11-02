@@ -1,4 +1,4 @@
-// Structured copy for the Home page. Source: Bakervaughn redesign brief (Sept 2026).
+// Structured copy for the Home page. Source: redesign brief (Sept 2026).
 // Anything the brief marks as missing stays visible as [ADD ...].
 
 export type Ticket = {

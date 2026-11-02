@@ -196,7 +196,7 @@ export default function ItemForm({
           </label>
           <button
             disabled={pending}
-            className="mt-5 h-11 w-full rounded-full bg-lamp font-semibold text-ink transition-colors hover:bg-[oklch(84%_0.14_70)] disabled:opacity-60"
+            className="mt-5 h-11 w-full rounded-full bg-lamp font-semibold text-ink transition-colors hover:bg-[oklch(78%_0.14_277)] disabled:opacity-60"
           >
             {pending ? "Saving…" : id ? "Save changes" : "Save"}
           </button>

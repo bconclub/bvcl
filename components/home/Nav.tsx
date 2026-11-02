@@ -15,15 +15,13 @@ const links = [
 ];
 
 export function Wordmark({
-  tagline = false,
   intro = false,
   className = "h-9 w-auto",
 }: {
-  tagline?: boolean;
   intro?: boolean;
   className?: string;
 }) {
-  return <LogoLockup tagline={tagline} intro={intro} className={className} />;
+  return <LogoLockup intro={intro} className={className} />;
 }
 
 export default function Nav() {
@@ -45,7 +43,7 @@ export default function Nav() {
       }`}
     >
       <nav className="wrap flex h-[72px] items-center justify-between" aria-label="Main">
-        <a href="#top" aria-label="Bakervaughn home">
+        <a href="#top" aria-label="Scafell Partners home">
           <Wordmark intro={ready} />
         </a>
         <ul className="hidden items-center gap-8 lg:flex">

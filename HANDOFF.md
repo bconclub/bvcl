@@ -1,9 +1,14 @@
 # Handoff
 
-Last updated: 2026-10-07.
+Last updated: 2026-11-03.
 
 ## Goal
 Run the Baker Vaughn site (fork of `bconclub/bakervaughn`) from `nishafmusthafa/bvcl`, deployed on Vercel, with versioned, verified releases. The process is in `CLAUDE.md`.
+
+## Latest (2026-11-03, rebrand)
+- Site rebranded to Scafell Partners in v0.9.0 (see CHANGELOG). Neutral tokens in `DESIGN.md` still need a full pass; `app/globals.css` is the source.
+- Vercel domains changed on 2026-11-03: bvcl.uk and bakervaughn.co.uk removed, scafellpartners.com and www added, waiting on GoDaddy DNS. Production is `www.scafellpartners.com`.
+- `connect@bvcl.uk` stays until a new mailbox exists (T70). Company number and legal wording: T36, T68. Admin lists: T69.
 
 ## Latest (2026-10-07, Claude cloud session)
 - Commits v0.5.11 (Nitish Nair, Growth advisor), v0.6.0 (technology partners row + advisor logos) and v0.7.0 (homepage copy: nine services + Reelme) were made in a cloud session that could not push (GitHub 403 on this repo). They were sent to the user as `git am` patches. Check `git log origin/main` before continuing: if they are not on `main`, apply the patches or redo from `CHANGELOG.md`.

@@ -39,7 +39,7 @@ export default async function CollectionPage({
         <PageTitle title={def.label} intro={def.intro} />
         <Link
           href={`/admin/${collection}/new`}
-          className="mb-8 inline-flex h-11 items-center gap-2 rounded-full bg-lamp px-5 font-semibold text-ink hover:bg-[oklch(84%_0.14_70)]"
+          className="mb-8 inline-flex h-11 items-center gap-2 rounded-full bg-lamp px-5 font-semibold text-ink hover:bg-[oklch(78%_0.14_277)]"
         >
           <Plus size={18} /> Add {def.singular}
         </Link>

@@ -10,7 +10,7 @@ import { useReady } from "@/components/useReady";
 // Product collage: every product shown working together, each in its service colour.
 // Mockup data is illustrative.
 const glass =
-  "rounded-2xl border border-white/10 bg-[oklch(21%_0.008_60/0.78)] shadow-[0_24px_60px_-24px_oklch(0%_0_0/0.85)] backdrop-blur-xl";
+  "rounded-2xl border border-white/10 bg-[oklch(21%_0.03_272/0.78)] shadow-[0_24px_60px_-24px_oklch(0%_0_0/0.85)] backdrop-blur-xl";
 
 // Product label: the product's logo mark when it has one, otherwise a dot in its colour.
 function Tag({ slug, children }: { slug: string; children: React.ReactNode }) {
@@ -119,7 +119,7 @@ const chat = [
 function Phone() {
   return (
     <div className="h-full rounded-[34px] border border-white/15 bg-[#0d0c0b] p-2 shadow-[0_30px_80px_-20px_oklch(0%_0_0/0.9)]">
-      <div className="relative flex h-full flex-col overflow-hidden rounded-[27px] bg-[oklch(19%_0.008_60)]">
+      <div className="relative flex h-full flex-col overflow-hidden rounded-[27px] bg-[oklch(21%_0.03_272)]">
         <div className="absolute top-2 left-1/2 h-4 w-16 -translate-x-1/2 rounded-full bg-black" />
         <div className="flex items-center gap-2 border-b border-white/5 px-3 pt-9 pb-2.5">
           <span className="grid size-7 place-items-center rounded-full bg-text text-ink">
@@ -311,7 +311,7 @@ function Backdrop() {
         aria-hidden
         className="absolute inset-0 [mask-image:radial-gradient(closest-side,black,transparent)] [background-image:linear-gradient(to_right,oklch(100%_0_0/0.05)_1px,transparent_1px),linear-gradient(to_bottom,oklch(100%_0_0/0.05)_1px,transparent_1px)] [background-size:36px_36px]"
       />
-      <div aria-hidden className="absolute inset-[15%] rounded-full bg-[radial-gradient(closest-side,oklch(79%_0.155_68/0.22),transparent)] blur-3xl" />
+      <div aria-hidden className="absolute inset-[15%] rounded-full bg-[radial-gradient(closest-side,oklch(70%_0.17_277/0.22),transparent)] blur-3xl" />
     </>
   );
 }

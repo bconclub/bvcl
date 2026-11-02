@@ -86,7 +86,7 @@ export default function Approach({ c }: { c: HomeContent["approach"] }) {
               ))}
             </div>
             <div id="stage-panel" role="tabpanel" aria-labelledby={`tab-${s.key}`} className="mt-10 min-h-[12rem]" key={s.key}>
-              <h3 className="text-3xl font-bold tracking-[-0.02em] [font-stretch:108%] md:text-4xl">{s.title}</h3>
+              <h3 className="text-3xl font-bold tracking-[-0.02em] md:text-4xl">{s.title}</h3>
               <p className="mt-5 max-w-[56ch] text-lg leading-relaxed text-text-2">{s.body}</p>
             </div>
           </div>
