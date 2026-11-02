@@ -9,13 +9,17 @@ const telHref = (phone: string) => `tel:+44${phone.replace(/\D/g, "").replace(/^
 
 export function Close({ c }: { c: HomeContent["close"] }) {
   return (
-    <section id="contact" className="bg-lamp py-20 text-ink md:py-28" aria-labelledby="close-title">
-      <div className="wrap grid gap-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
+    <section id="contact" className="relative overflow-hidden py-24 md:py-36" aria-labelledby="close-title">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_90%_at_75%_60%,oklch(42%_0.24_272/0.6),transparent_72%)]"
+      />
+      <div className="wrap relative grid gap-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
         <h2 id="close-title" className="display max-w-[14ch] text-[clamp(2.6rem,6.4vw,6rem)]">
           {c.title}
         </h2>
         <div>
-          <p className="max-w-[40ch] text-lg leading-relaxed text-ink/80">
+          <p className="max-w-[40ch] text-lg leading-relaxed text-text-2">
             {c.body}
           </p>
           <EnquiryButton source="close" variant="ink" className="mt-8">
